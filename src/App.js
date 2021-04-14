@@ -23,16 +23,22 @@ function App() {
       </section>
       <div>
         <ul className="imageBot">
-          <img  src="./images/icon1.png" alt="logo iron" />
-          <img  src="./images/icon2.png" alt="logo iron" />
-          <img  src="./images/icon3.png" alt="logo iron" />
-          <img  src="./images/icon4.png" alt="logo iron" />
+          <img src="./images/icon1.png" alt="logo iron" />
+          <img src="./images/icon2.png" alt="logo iron" />
+          <img src="./images/icon3.png" alt="logo iron" />
+          <img src="./images/icon4.png" alt="logo iron" />
         </ul>
         <div className="textoBaixo">
-          <p>teste</p>
-          <p>teste</p>
-          <p>teste</p>
-          <p>teste</p>
+          <p>Declarative</p>
+          <p>Components</p>
+          <p>Single-Way</p>
+          <p>JSX</p>
+        </div>
+        <div className="ultimoTexto">
+          <p>React makes it painless to create interactive UIs.</p>
+          <p>Build encapsuled componentes that manage their state.</p>
+          <p>A set of immutable values are passed to the component's.</p>
+          <p>Statically-typed, designed to run on modern browsers.</p>
         </div>
       </div>
     </div>

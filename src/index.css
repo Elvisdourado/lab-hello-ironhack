@@ -1,0 +1,112 @@
+body {
+  height: 1500px;
+  width: 100%;
+  margin: 0;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  nav ul {    
+    color: white;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
+  }
+
+  .background {
+    width: 100%;
+    height: 93vh;    
+    background-color: #202534;
+    margin-top: -16px;
+  }
+
+  .imageTop {    
+    margin-top: 10px;
+ margin-left: 50px;
+  }
+
+  .imageTop2 {    
+    margin-right: 105px;
+    margin-top: 10px;
+  }
+  
+  .lados {    
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: stretch;
+      align-content: stretch;
+    
+  }
+  .ladoA {
+    color: white;
+    width: 500px;
+    height: 420px;
+    border-color: white;    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: space-between;  
+
+  }
+
+  .ladoB {
+    background-image: url(./images/react-logo.svg);
+    background-repeat: repeat; 
+    color: white;
+    width: 500px;
+    height: 420px;
+    border-color: white;    
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-end;
+      align-items: stretch;
+      align-content: space-between;    
+
+  }
+
+  H1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    margin-bottom: -10px;
+  }
+
+  button {
+    color:  #202534;
+    background-color: white;
+    border-radius: 3px;
+    padding: 15px;
+    font-size: 20px;
+    border-style: none;
+  }
+  
+  .para1 {
+    width: 250px;
+    margin-bottom: 55px;
+  }
+
+  .textoBaixo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: space-around;
+  }
+
+  .imageBot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: space-around;
+  }
